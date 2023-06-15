@@ -45,7 +45,7 @@ class Menu extends Model
         if ($this->image && \Storage::disk('public')->exists($this->image)) {
             return \Storage::disk('public')->url($this->image);
         } else {
-            return asset('img/menu.png');
+            return asset('img/menu.jpg');
         }
     }
 }
