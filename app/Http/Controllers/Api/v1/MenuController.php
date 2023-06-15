@@ -30,7 +30,7 @@ class MenuController extends Controller
         if (request()->has('category')) {
             $category = request()->input('category');
             $menu->whereHas('category', function ($q) use ($category){
-                $q->whereIn('menu.category_id', $category);
+                $q->whereIn('menus.category_id', $category);
             });
         }
 
