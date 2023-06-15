@@ -1,6 +1,6 @@
-## Laravel Simple Ecommerce API 
+## Laravel Simple Food Menu API 
 
-Laravel Simple Menu API
+Laravel Simple Food Menu API
 - Categroy
 - Recipe
 - Menu
